@@ -1,0 +1,142 @@
+/**
+- - -  KERBEROS INTELLIGENCE SERVICES  - - -
+- - -    Codificador/Decodificador     - - -
+**/
+
+body {
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: rgb(50, 50, 50);
+    color: green;
+    align-items: center;
+    font-family: monospace;
+}
+#titulo {
+    margin-bottom: 6px;
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 8px;
+    background-color: black;
+    opacity: 0.8;
+}
+#titulo:hover{
+    -webkit-transform: rotateX(150deg);
+    transform: rotateX(150deg);
+}
+#titulo a:link,#titulo a:visited,#titulo a:hover,#titulo a:active {
+    color: green;
+    text-decoration: none;
+}
+button{
+    padding: 7px 7px;
+    height: 25px;
+    width: 25px;
+    background-color: darkgreen;
+    border: solid greenyellow 1px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: darkblue;
+}
+
+#encripter {
+    margin-bottom: 6px;
+    padding: 25px;
+    border: 2px solid green;
+    border-radius: 20px;
+    
+    background-color: black;
+    opacity: 0.8;
+    font-size: 18px;
+}
+#barra {
+    margin-bottom: 20px;
+    padding: auto;
+    height: 50px;
+    
+    border: 2px solid green;
+    border-radius: 20px;
+    
+    background-color: black;    
+}
+#barra > p {
+    margin: 12px 5px 10px 10px;
+    float: left;
+}
+#barra > input{
+    margin: 12px 20px 10px 10px;
+    width: 50px;
+    
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: black;
+    
+    text-align: center;
+    color: green;
+    
+    float: left;
+}
+#barra > select {
+    margin: 12px 5px 10px 10px;
+    
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: black;
+    color: green;
+    
+    float: left;
+}
+#barra > button {
+    margin: 12px 10px 10px 10px;
+    float: left;
+}
+#barra > img{    
+    height: 48px;
+    width: 48px;
+    margin: 0px 4px 0px 0px;
+    opacity: 0.9;
+    
+    float: right;
+}
+#imputtext {
+    
+    padding: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    
+    background-color: black;
+}
+#imputtext textarea {
+    height: 90%;
+    width: 95%;
+    margin: 2%;
+    /*padding: 5px 5px 5px 5px;*/
+    
+    resize: vertical;
+    
+    border: 0px solid;
+    border-radius: 10px;
+    
+    background-color: black;
+    color: green;    
+}
+#outputtext {
+    padding: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    
+    background-color: black;
+}
+#outputtext p {
+    height: 90%;
+    width: 95%;
+    margin: 2%;
+    /*padding: 5px 5px 5px 5px;*/
+    
+    font-size: 15px;
+    
+    border: 0px solid;
+    border-radius: 10px;
+}

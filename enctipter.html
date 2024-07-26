@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+- - -  KERBEROS INTELLIGENCE SERVICES  - - -
+- - -    Codificador/Decodificador     - - -
+-->
+<html>
+<head>
+    <title>KBR ENCRIPTER</title>
+    
+    <link rel="stylesheet" type="text/css" href="enctipter.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="enctipter.js"></script>
+    
+    <link rel="shortcut icon" href="../../estilo/kin_logo.png">
+</head>
+<body>
+    <div id="titulo"><a href="../../index.html"><h1>KERBEROS - SECCION DE INTELIGENCIA</h1></a></div>
+    
+    <div id="encripter">
+        <div id="barra">
+            <p>HASH :</p>
+            <input id="hashinput" type="text" name="hash" placeholder="XXXX"/>
+            <select id="metodotxt" name="ACCION">
+                <option value="cod">Codificar</option>
+                <option value="des">Descodificar</option>
+            </select>
+            <button id="globalButton" onclick="cojertext()"></button>
+            <!--<img src="../../estilo/kin_logo.png" width="75" height="75">-->
+        </div>
+        <div id="text">
+            <div id="imputtext">
+                <textarea id="cajainput" placeholder="Introduzca aqui el texto a trabajar ..."></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="outputtext">
+        <p id="cajaoutput"> </p>
+    </div>
+</body>
+</html>
