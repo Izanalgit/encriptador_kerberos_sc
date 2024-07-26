@@ -1,0 +1,1 @@
+# encriptador_kerberos_sc
